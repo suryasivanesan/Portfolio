@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #333;
+  font-size: 15px;
+}
+
+.btn-outline {
+  border: 1.5px solid #222;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: #f3f3f3;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  max-width: 450px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.img-placeholder {
+  background: #f6f6f6;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-placeholder.small {
+  height: 150px;
+}
+
+
+section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+
+blockquote {
+  max-width: 600px;
+  margin: auto;
+  font-style: italic;
+  color: #555;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+
+footer {
+  background: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+footer .socials {
+  margin: 10px 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
